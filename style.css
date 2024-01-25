@@ -81,12 +81,16 @@ nav {
 
     #secret a:hover:not(.active) {
 
+      float: right;
+
       background-color: burlywood; 
     ;
 
   }
   
   #secret li a.active {
+
+      float: right;
 
       background-color: #370fa7;
     ;
