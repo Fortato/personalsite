@@ -8,7 +8,7 @@ nav {
   
     min-height: 8vh;
   
-    background-color: #2b552b;
+    background-color: #3486d2;
   
     font-family: "Montserrat", sans-serif;
   
@@ -60,13 +60,21 @@ nav {
   
   .nav-links a:hover:not(.active) {
   
-    background-color: #449D34
+    background-color: #370fa7;
   ;
   
   }
   
   .nav-links li a.active {
   
-    background-color: #4caf50;
+    background-color: #370fa7;
   
+  }
+
+  #secret {
+
+    right: auto;
+
+    background-color: burlywood;
+    
   }
