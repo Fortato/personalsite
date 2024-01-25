@@ -10,8 +10,6 @@ nav {
   
     background-color: #3486d2;
   
-    font-family: "Light 300", sans-serif;
-  
   }
   
   .heading {
@@ -96,19 +94,14 @@ nav {
     ;
 
   }
-    
-  @font-face {
-      font-family: "Source Code Pro";
-      src: url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap);
-    }
 
-  .tooltip1 {
+  .tooltip {
       position: relative;
       display: inline-block;
       border-bottom: 1px dotted black;
   }
     
-  .tooltip1 .tooltiptext1 {
+  .tooltip .tooltiptext {
       visibility: hidden;
       width: 120px;
       background-color: black;
@@ -123,6 +116,6 @@ nav {
       margin-left: -60px;
   }
     
-  .tooltip1:hover .tooltiptext1 {
+  .tooltip:hover .tooltiptext {
       visibility: visible;
   }
