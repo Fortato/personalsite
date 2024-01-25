@@ -10,7 +10,7 @@ nav {
   
     background-color: #3486d2;
   
-    font-family: "Montserrat", sans-serif;
+    font-family: "Light 300", sans-serif;
   
   }
   
@@ -76,5 +76,19 @@ nav {
     right: auto;
 
     background-color: burlywood;
+
+  }
+
+    #secret a:hover:not(.active) {
+
+      background-color: burlywood; 
+    ;
+
+  }
+  
+  #secret li a.active {
+
+      background-color: #370fa7;
+    ;
     
   }
