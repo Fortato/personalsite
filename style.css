@@ -73,7 +73,7 @@ nav {
 
   #secret {
 
-    right: auto;
+    float: right;
 
     background-color: burlywood;
 
@@ -90,5 +90,10 @@ nav {
 
       background-color: #370fa7;
     ;
-    
+
   }
+    
+  @font-face {
+      font-family: "Light 300";
+      src: url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap);
+    }
