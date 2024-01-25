@@ -102,13 +102,13 @@ nav {
       src: url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap);
     }
 
-  .tooltip {
+  .tooltip1 {
       position: relative;
       display: inline-block;
       border-bottom: 1px dotted black;
   }
     
-  .tooltip .tooltiptext {
+  .tooltip1 .tooltiptext1 {
       visibility: hidden;
       width: 120px;
       background-color: black;
@@ -123,6 +123,6 @@ nav {
       margin-left: -60px;
   }
     
-  .tooltip:hover .tooltiptext {
+  .tooltip1:hover .tooltiptext1 {
       visibility: visible;
   }
